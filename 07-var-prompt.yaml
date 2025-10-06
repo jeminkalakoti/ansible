@@ -1,4 +1,4 @@
-- name: Variables from prompt
+- name: variables from prompt
   hosts: local
   conection: local
   vars_prompt:
@@ -13,4 +13,3 @@
   - name: print credentials
     ansible.builtin.debug:
       msg: "Hello, Username is: {{username}}, Password is: {{password}}"
-      
