@@ -1,0 +1,43 @@
+- name: "Jemin"
+  Age: 25
+  DOB: "14-04-1999"
+  Addresses:
+   # Object
+  - type: Parmanent
+    DoorNo: 1-23
+    Street: "Nagar"
+    Pin: 000000
+  
+  - type: Current
+    DoorNo: 1-23
+    Street: "Nagar"
+    Pin: 000000
+  
+  Skills:
+  - Java
+  - Python
+  - DevOps
+
+- name: "Laks"
+  Age: 25
+  DOB: "14-04-1999"
+  Addresses:
+    #Object
+  - type: Parmanent
+    DoorNo: 1-23
+    Street: "Nagar"
+    Pin: 000000
+  
+  - type: Current
+    DoorNo: 1-23
+    Street: "Nagar"
+    Pin: 000000
+  
+  Skills:
+  - Java
+  - Python
+  - DevOps
+  - Cloud
+
+
+  

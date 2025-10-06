@@ -1,0 +1,22 @@
+{
+    "Name": "Jemin",
+    "Age": "25",
+    "DOB": "14-04-1999",
+    "Addresses": [
+        {
+            "Type": "Permanent",
+            "DoorNo": "1-23",
+            "Street": "Nagar",
+            "Pin": "000000",
+        },
+        
+        {
+            "Type": "Current",
+            "DoorNo": "1-23",
+            "Street": "Nagar",
+            "Pin": "000000",
+        }
+
+    ],
+    "Skills": ["Java", "Python", "DevOps"]
+}
