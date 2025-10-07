@@ -71,6 +71,7 @@
   - name: redirect the output # To execute simple or small commands we can use 'command'
     ansible.builtin.command: ls -ltr > /tmp/output.txt
     register: redirect_output
+    ignore_erros: true
   
   - name: print the redirect_output
     ansible.builtin.debug:
