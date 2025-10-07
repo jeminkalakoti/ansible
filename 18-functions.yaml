@@ -64,5 +64,5 @@
     register: command_output
 
   - name: print the command_output
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "{{ command_output }}"
