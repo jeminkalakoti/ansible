@@ -8,13 +8,13 @@
     # Dictionary == map
     tags:
       Applications: payment
-      Environment: DevOps
+      Environment: dev 
     #list
     listTags:
     - key: Application
       value: payment
     - key: Environment
-      value: DevOps
+      value: dev
   tasks: 
   - name: default variables
     ansible.builtin.debug:
