@@ -13,5 +13,5 @@
   - name: Testing Variable preference
     vars:
       NAME: from task level
-  ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: "Name: {{ NAME }}"
