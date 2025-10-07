@@ -6,12 +6,12 @@
     Duration: 120 # number
     is_live: true # boolean
     #list
-    tools: # ["linux", "shell", Ansible]
+    tools: # ["linux", "shell", Ansible] lists:[ ]
     - "linux"
     - shell
     - Ansible
-    concepts: # dictionary or map (if it does not starts with - then it is not a list)
-      cloud: AWS
+    concepts: # dictionary or map (if it does not starts with - then it is not a list) maps: { }
+      cloud: AWS 
       cm: Ansible
   tasks:
   - name: print course information
