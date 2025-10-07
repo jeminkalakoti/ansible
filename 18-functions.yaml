@@ -65,4 +65,4 @@
 
   - name: print the command_output
     ansible.buitin.debug:
-      msg: "{{ command_output }}""
+      msg: "{{ command_output }}"
