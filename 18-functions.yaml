@@ -5,7 +5,7 @@
     technologies: DevOps, Linux, Shell, Ansible # string
     name: "Jemin K"
     gmail: jemin@GMAIL.COM
-    ipaddress: "192.168.0.1"
+    ipaddress: "19212.168.0.1"
     # Dictionary == map
     tags:
       Applications: payment
