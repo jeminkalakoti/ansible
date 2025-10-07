@@ -15,3 +15,15 @@
       NAME: from task level
     ansible.builtin.debug:
       msg: "Name: {{ NAME }}"
+
+
+
+# Here the first preference is for arguments or command line
+# Here the second preference is for 
+# Here the third preference is for 
+# Here the fourth preference is 
+# Here the fifth preference is 
+# Here the first preference is 
+
+
+
