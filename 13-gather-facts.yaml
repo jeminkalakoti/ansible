@@ -1,0 +1,8 @@
+- name: gaher facts
+  hosts: local
+  connection: local
+  # ansible collects the info of target server, before execute any other server
+  tasks:
+  - name: facts
+    ansible.builti.debug:
+      msg: "{{ ansible_facts }}"
